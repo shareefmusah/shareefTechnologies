@@ -4,6 +4,11 @@ export const gistInfo = {
   tagline: "Stay connected with what's happening on campus in real time.",
   description: "Gist is a modern social platform engineered specifically for university communities. It enables students to share campus updates, participate in campus discussions, discover local university events, and access real-time home-screen updates via native mobile widgets.",
   logoUrl: "/gist-logo.png",
+  downloadLinks: {
+    playStore: "https://play.google.com/store/apps/details?id=com.gistapp.gist",
+    appStore: "https://apps.apple.com/app/gist-campus/id6400000000",
+    directApk: "#download-apk"
+  },
   highlights: [
     {
       title: "Campus Real-Time Feed",
