@@ -11,18 +11,16 @@ export default function Footer() {
           {/* Brand Info */}
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
-              <div style={{
-                width: '32px',
-                height: '32px',
-                borderRadius: '8px',
-                background: 'linear-gradient(135deg, var(--accent-blue), #0056B3)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: '#FFFFFF'
-              }}>
-                <Terminal size={18} />
-              </div>
+              <img
+                src="/shareeftechnologies.png"
+                alt="Shareef Technologies Logo"
+                style={{
+                  width: '34px',
+                  height: '34px',
+                  borderRadius: '8px',
+                  objectFit: 'contain'
+                }}
+              />
               <span style={{ fontFamily: 'var(--font-heading)', fontSize: '1.1rem', fontWeight: '700', color: 'var(--text-primary)' }}>
                 Shareef <span style={{ color: 'var(--accent-blue-light)' }}>Technologies</span>
               </span>

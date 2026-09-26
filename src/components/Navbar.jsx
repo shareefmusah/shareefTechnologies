@@ -42,19 +42,17 @@ export default function Navbar() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Brand Wordmark */}
         <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '10px' }}>
-          <div style={{
-            width: '36px',
-            height: '36px',
-            borderRadius: '10px',
-            background: 'linear-gradient(135deg, var(--accent-blue), #0056B3)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#FFFFFF',
-            boxShadow: '0 0 15px var(--accent-glow)'
-          }}>
-            <Terminal size={20} />
-          </div>
+          <img
+            src="/shareeftechnologies.png"
+            alt="Shareef Technologies Logo"
+            style={{
+              width: '38px',
+              height: '38px',
+              borderRadius: '10px',
+              objectFit: 'contain',
+              boxShadow: '0 0 15px var(--accent-glow)'
+            }}
+          />
           <div>
             <span style={{
               fontFamily: 'var(--font-heading)',
