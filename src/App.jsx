@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import FixedBackgroundVisual from './components/FixedBackgroundVisual';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -15,7 +16,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div style={{ backgroundColor: 'var(--bg-dark)', minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <FixedBackgroundVisual />
+      <div style={{ position: 'relative', zIndex: 10, minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <Navbar />
         <main style={{ flex: 1 }}>
           <Routes>
