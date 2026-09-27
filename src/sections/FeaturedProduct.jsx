@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { gistInfo } from '../data/gistData';
-import { Sparkles, Smartphone, ShieldCheck, Download, ExternalLink, CheckCircle } from 'lucide-react';
+import { Sparkles, Smartphone, ShieldCheck, ExternalLink, CheckCircle } from 'lucide-react';
 
 export default function FeaturedProduct() {
   const [activeTab, setActiveTab] = useState(0);
@@ -139,7 +139,7 @@ export default function FeaturedProduct() {
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginTop: '14px', fontSize: '0.8rem', color: '#4ADE80' }}>
-                <ShieldCheck size={16} /> Verified Authentic Build • Package: com.gistapp.gist
+                <ShieldCheck size={16} /> Verified Authentic Build â€¢ Package: com.gistapp.gist
               </div>
             </div>
 
@@ -206,7 +206,7 @@ export default function FeaturedProduct() {
                 </div>
                 <div style={{ backgroundColor: 'rgba(255,255,255,0.03)', padding: '10px 14px', borderRadius: '8px', border: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between' }}>
                   <span style={{ color: 'var(--text-muted)' }}>Security Status</span>
-                  <span style={{ color: '#4ADE80', fontWeight: '600' }}>SHA-1 Verified ✓</span>
+                  <span style={{ color: '#4ADE80', fontWeight: '600' }}>SHA-1 Verified âœ“</span>
                 </div>
               </div>
             </div>
@@ -227,3 +227,4 @@ export default function FeaturedProduct() {
     </section>
   );
 }
+
