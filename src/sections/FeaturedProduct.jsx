@@ -1,6 +1,6 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { gistInfo } from '../data/gistData';
-import { Sparkles, Smartphone, ShieldCheck, ExternalLink, CheckCircle } from 'lucide-react';
+import { Sparkles, Smartphone, ShieldCheck, ExternalLink, CheckCircle, Download } from 'lucide-react';
 
 export default function FeaturedProduct() {
   const [activeTab, setActiveTab] = useState(0);
