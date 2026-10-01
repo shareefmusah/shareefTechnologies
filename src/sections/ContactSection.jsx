@@ -25,7 +25,7 @@ export default function ContactSection() {
             boxShadow: '0 20px 50px -15px var(--accent-glow)'
           }}
         >
-          <div style={{ textAlign: 'center', marginBottom: '36px' }}>
+          <div style={{ textAlign: 'left', marginBottom: '36px' }}>
             <div className="badge-glow" style={{ marginBottom: '16px' }}>
               <Mail size={14} />
               <span>Get in Touch</span>

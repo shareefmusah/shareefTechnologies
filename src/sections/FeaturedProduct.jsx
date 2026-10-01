@@ -10,7 +10,7 @@ export default function FeaturedProduct() {
       <div className="container">
         
         {/* Section Header */}
-        <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 60px' }}>
+        <div style={{ textAlign: 'left', maxWidth: '700px', marginBottom: '48px' }}>
           <div className="badge-glow" style={{ marginBottom: '16px' }}>
             <Sparkles size={14} />
             <span>Official Release</span>

@@ -18,7 +18,7 @@ export default function TechStackSection() {
       <div className="container">
         
         {/* Section Header */}
-        <div style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto 48px' }}>
+        <div style={{ textAlign: 'left', maxWidth: '600px', marginBottom: '48px' }}>
           <div className="badge-glow" style={{ marginBottom: '16px' }}>
             <Cpu size={14} />
             <span>Technologies</span>
