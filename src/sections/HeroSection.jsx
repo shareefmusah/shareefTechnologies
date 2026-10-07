@@ -6,12 +6,7 @@ export default function HeroSection() {
   return (
     <section id="hero" className="hero-section">
       <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left' }}>
-        
-        {/* Origin Badge */}
-        <div className="badge-glow" style={{ marginBottom: '24px' }}>
-          <span className="badge-dot" />
-          <span>Independent Software Studio • Ghana</span>
-        </div>
+
 
         {/* Confident Headline */}
         <h1 className="hero-title">

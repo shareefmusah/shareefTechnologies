@@ -8,7 +8,7 @@ export default function FeaturedProduct() {
   return (
     <section id="gist" className="section-padding" style={{ position: 'relative' }}>
       <div className="container">
-        
+
         {/* Section Header */}
         <div style={{ textAlign: 'left', maxWidth: '700px', marginBottom: '48px' }}>
           <div className="badge-glow" style={{ marginBottom: '16px' }}>
@@ -195,20 +195,7 @@ export default function FeaturedProduct() {
                 Official campus social platform with Android AppWidgets & iOS WidgetKit integrations.
               </p>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', textAlign: 'left', fontSize: '0.8rem', fontFamily: 'var(--font-mono)' }}>
-                <div style={{ backgroundColor: 'rgba(255,255,255,0.03)', padding: '10px 14px', borderRadius: '8px', border: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Publisher</span>
-                  <span style={{ color: 'var(--accent-blue-light)', fontWeight: '600' }}>Shareef Technologies</span>
-                </div>
-                <div style={{ backgroundColor: 'rgba(255,255,255,0.03)', padding: '10px 14px', borderRadius: '8px', border: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Package ID</span>
-                  <span style={{ color: '#4ADE80', fontWeight: '600' }}>com.gistapp.gist</span>
-                </div>
-                <div style={{ backgroundColor: 'rgba(255,255,255,0.03)', padding: '10px 14px', borderRadius: '8px', border: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between' }}>
-                  <span style={{ color: 'var(--text-muted)' }}>Security Status</span>
-                  <span style={{ color: '#4ADE80', fontWeight: '600' }}>SHA-1 Verified âœ“</span>
-                </div>
-              </div>
+
             </div>
           </div>
 
